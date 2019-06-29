@@ -1,9 +1,9 @@
 # 学习笔记
 ## 1.html的页面骨架
-#####1.文档声明类型
-- 表示告诉浏览器以html5的标准来解析页面。
-#####2.注释
-- 是给程序员看的,方便维护代码,保证代码的可读性。
+##### 1.文档声明类型
+  - 表示告诉浏览器以html5的标准来解析页面。
+##### 2.注释
+  - 是给程序员看的,方便维护代码,保证代码的可读性。
 #####3.html标签 
 - 网页的根节点(根标签),一个网页只能有一个根标签,其余所有内容都应该写在html标签内部。
 - lang='en' html标签的属性
@@ -20,10 +20,10 @@
  - 用于设置描述信息 ```<meta name="description" content="xxxx" />```
 #####6.title标签 
 - 设置页面标题,在浏览器头部tab当中显示。
-<hr>
+
 ## 2.常见标签
 ##### 1.简单的文字与段落标签
-- h1~h6 标题标签。在html中一共有6级标题.h1 是最大的标题，一般在页面中只能出现一次
+- ```<h1>~<h6>``` 标题标签。在html中一共有6级标题.h1 是最大的标题，一般在页面中只能出现一次
 - ```<p>``` 段落标签
 - ```<br/>``` 换行标签
 - ```<hr/> ```水平线换行标签
@@ -99,7 +99,7 @@
     2. 相对安全
     3. 提交的数据量没有上限
     4. 一般用于提交保存数据
-    <hr>
+    
 ##  3.css基础
 ##### 1.什么是CSS
 - 全称层叠样式表 (Cascading Style Sheets),用于实现页面的样式层叠,简单来说就是一个元素可以多次对他设置同一个样式,但是具体生效情况看哪一次权重更高
@@ -155,7 +155,7 @@ background-repeat|平铺方式|repeat 、 no-repeat 、 repeat-x 、 repeat-y
 background-position|图片位置|eft、 right、 top、 bottom、 center
 background-attachment	|背景滚动|scroll、fixed (注意：基于 body 的定位）
 background|简写（顺序不能错）|background: green url(1.jpg) no-repeat center center fixed;
-<hr>
+
 ## 4.盒子模型
 ##### 1.标签的表现形式
 - 块状标签 独占一行，宽高有效。 比如： div p h1~h6 form table hr br ul>li ol>li dl>dt/dd
@@ -213,7 +213,7 @@ background|简写（顺序不能错）|background: green url(1.jpg) no-repeat ce
 ##### 9.文档流
 - 块状标签独占一行
 - 行内元素可以同一行显示，如果不够会自动换行自上而下的展示
-<hr>
+
 ##5.浮动
 #####1.浮动指的是使元素脱离原来的文本流，在父元素中浮动起来。
 
