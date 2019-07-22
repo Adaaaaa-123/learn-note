@@ -75,7 +75,7 @@
 ### 8. undefined 未定义
 - 声明了一个变量，但是没有赋值（例如：var a;），此时它的值就是 undefined。
 
-- Undefined 类型的值只有一个，就是 undefind
+- Undefined 类型的值只有一个，就是 undefined
 
 - 使用 type of 检查一个 undefined 时，会返回 undefined。
 ### 9. null 空值
